@@ -4,6 +4,7 @@
     "React": "readonly"
   },
   "rules": {
-    "no-unused-vars": 0 // As example: Will never bug you about unused variables again
+    "no-unused-vars": 0, // As example: Will never bug you about unused variables again
+    "no-img-element": 0 // As example: Will never bug you about using <img> again
   }
 }
