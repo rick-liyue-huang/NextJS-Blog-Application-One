@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { buttonVariants } from "./ui/button";
 
 export async function Navbar() {
   return (
@@ -15,6 +16,11 @@ export async function Navbar() {
           <p className="hidden text-zinc-700 text-sm font-medium md:block">
             Blog
           </p>
+        </Link>
+
+        {/* Search Bar */}
+        <Link href={"/sign-in"} className={buttonVariants()}>
+          Sign In
         </Link>
       </div>
     </div>
